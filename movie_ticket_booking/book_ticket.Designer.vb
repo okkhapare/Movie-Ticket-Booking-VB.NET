@@ -518,6 +518,7 @@ Partial Class book_ticket
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(838, 481)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label9)

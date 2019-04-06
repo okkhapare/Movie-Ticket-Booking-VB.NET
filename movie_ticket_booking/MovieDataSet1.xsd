@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MovieDataSet1" targetNamespace="http://tempuri.org/MovieDataSet1.xsd" xmlns:mstns="http://tempuri.org/MovieDataSet1.xsd" xmlns="http://tempuri.org/MovieDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MovieDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="MovieDataSet1" msprop:Generator_UserDSName="MovieDataSet1" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_TablePropName="DataTable1" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="movie_id" msprop:Generator_UserColumnName="movie_id" msprop:Generator_ColumnPropNameInRow="movie_id" msprop:Generator_ColumnVarNameInTable="columnmovie_id" msprop:Generator_ColumnPropNameInTable="movie_idColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="movie_name" msprop:Generator_UserColumnName="movie_name" msprop:Generator_ColumnPropNameInRow="movie_name" msprop:Generator_ColumnVarNameInTable="columnmovie_name" msprop:Generator_ColumnPropNameInTable="movie_nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="actor" msprop:Generator_UserColumnName="actor" msprop:Generator_ColumnPropNameInRow="actor" msprop:Generator_ColumnVarNameInTable="columnactor" msprop:Generator_ColumnPropNameInTable="actorColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="actress" msprop:Generator_UserColumnName="actress" msprop:Generator_ColumnPropNameInRow="actress" msprop:Generator_ColumnVarNameInTable="columnactress" msprop:Generator_ColumnPropNameInTable="actressColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="director" msprop:Generator_UserColumnName="director" msprop:Generator_ColumnPropNameInRow="director" msprop:Generator_ColumnVarNameInTable="columndirector" msprop:Generator_ColumnPropNameInTable="directorColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="release_date" msprop:Generator_UserColumnName="release_date" msprop:Generator_ColumnPropNameInRow="release_date" msprop:Generator_ColumnVarNameInTable="columnrelease_date" msprop:Generator_ColumnPropNameInTable="release_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="start_show_date" msprop:Generator_UserColumnName="start_show_date" msprop:Generator_ColumnPropNameInRow="start_show_date" msprop:Generator_ColumnVarNameInTable="columnstart_show_date" msprop:Generator_ColumnPropNameInTable="start_show_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="end_show_date" msprop:Generator_UserColumnName="end_show_date" msprop:Generator_ColumnPropNameInRow="end_show_date" msprop:Generator_ColumnVarNameInTable="columnend_show_date" msprop:Generator_ColumnPropNameInTable="end_show_dateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="basic_rate" msprop:Generator_UserColumnName="basic_rate" msprop:Generator_ColumnPropNameInRow="basic_rate" msprop:Generator_ColumnVarNameInTable="columnbasic_rate" msprop:Generator_ColumnPropNameInTable="basic_rateColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

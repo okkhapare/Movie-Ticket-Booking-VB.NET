@@ -1,0 +1,12 @@
+C:\Users\Farha\Documents\Visual Studio 2008\Projects\movie_ticket_booking\movie_ticket_booking\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Farha\Documents\Visual Studio 2008\Projects\movie_ticket_booking\movie_ticket_booking\obj\Debug\movie_ticket_booking.login.resources
+C:\Users\Farha\Documents\Visual Studio 2008\Projects\movie_ticket_booking\movie_ticket_booking\obj\Debug\movie_ticket_booking.Resources.resources
+C:\Users\Farha\Documents\Visual Studio 2008\Projects\movie_ticket_booking\movie_ticket_booking\obj\Debug\movie_ticket_booking.vbproj.GenerateResource.Cache
+C:\Users\Farha\Documents\Visual Studio 2008\Projects\movie_ticket_booking\movie_ticket_booking\bin\Debug\movie_ticket_booking.exe
+C:\Users\Farha\Documents\Visual Studio 2008\Projects\movie_ticket_booking\movie_ticket_booking\bin\Debug\movie_ticket_booking.pdb
+C:\Users\Farha\Documents\Visual Studio 2008\Projects\movie_ticket_booking\movie_ticket_booking\bin\Debug\movie_ticket_booking.xml
+C:\Users\Farha\Documents\Visual Studio 2008\Projects\movie_ticket_booking\movie_ticket_booking\obj\Debug\movie_ticket_booking.exe
+C:\Users\Farha\Documents\Visual Studio 2008\Projects\movie_ticket_booking\movie_ticket_booking\obj\Debug\movie_ticket_booking.xml
+C:\Users\Farha\Documents\Visual Studio 2008\Projects\movie_ticket_booking\movie_ticket_booking\obj\Debug\movie_ticket_booking.pdb
+C:\Users\Farha\Documents\Visual Studio 2008\Projects\movie_ticket_booking\movie_ticket_booking\bin\Debug\movie_ticket_booking.exe.config
+C:\Users\Farha\Documents\Visual Studio 2008\Projects\movie_ticket_booking\movie_ticket_booking\bin\Debug\movie_ticket.mdb

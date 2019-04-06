@@ -34,12 +34,12 @@ Partial Class Home
         Me.BookTicketToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem
         Me.CancelTicketToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.ShowsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.PaymentToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.ReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.MovieDetailsReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.SchedulingReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.PaymentReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
-        Me.PaymentToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.MenuStrip.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -48,7 +48,8 @@ Partial Class Home
         Me.MenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddMovieToolStripMenuItem, Me.BookTicketToolStripMenuItem, Me.ShowsToolStripMenuItem, Me.PaymentToolStripMenuItem, Me.ReportToolStripMenuItem})
         Me.MenuStrip.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip.Name = "MenuStrip"
-        Me.MenuStrip.Size = New System.Drawing.Size(824, 24)
+        Me.MenuStrip.Padding = New System.Windows.Forms.Padding(8, 3, 0, 3)
+        Me.MenuStrip.Size = New System.Drawing.Size(1099, 25)
         Me.MenuStrip.TabIndex = 5
         Me.MenuStrip.Text = "MenuStrip"
         '
@@ -56,7 +57,7 @@ Partial Class Home
         '
         Me.AddMovieToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddMovieToolStripMenuItem1, Me.RemoveMovieToolStripMenuItem, Me.MovieDetailsToolStripMenuItem})
         Me.AddMovieToolStripMenuItem.Name = "AddMovieToolStripMenuItem"
-        Me.AddMovieToolStripMenuItem.Size = New System.Drawing.Size(52, 20)
+        Me.AddMovieToolStripMenuItem.Size = New System.Drawing.Size(52, 19)
         Me.AddMovieToolStripMenuItem.Text = "Movie"
         '
         'AddMovieToolStripMenuItem1
@@ -81,7 +82,7 @@ Partial Class Home
         '
         Me.BookTicketToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BookTicketToolStripMenuItem1, Me.CancelTicketToolStripMenuItem})
         Me.BookTicketToolStripMenuItem.Name = "BookTicketToolStripMenuItem"
-        Me.BookTicketToolStripMenuItem.Size = New System.Drawing.Size(51, 20)
+        Me.BookTicketToolStripMenuItem.Size = New System.Drawing.Size(51, 19)
         Me.BookTicketToolStripMenuItem.Text = "Ticket"
         '
         'BookTicketToolStripMenuItem1
@@ -99,14 +100,21 @@ Partial Class Home
         'ShowsToolStripMenuItem
         '
         Me.ShowsToolStripMenuItem.Name = "ShowsToolStripMenuItem"
-        Me.ShowsToolStripMenuItem.Size = New System.Drawing.Size(51, 20)
+        Me.ShowsToolStripMenuItem.Size = New System.Drawing.Size(51, 19)
         Me.ShowsToolStripMenuItem.Text = "Show "
+        '
+        'PaymentToolStripMenuItem
+        '
+        Me.PaymentToolStripMenuItem.Name = "PaymentToolStripMenuItem"
+        Me.PaymentToolStripMenuItem.Size = New System.Drawing.Size(66, 20)
+        Me.PaymentToolStripMenuItem.Text = "Payment"
+        Me.PaymentToolStripMenuItem.Visible = False
         '
         'ReportToolStripMenuItem
         '
         Me.ReportToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MovieDetailsReportToolStripMenuItem, Me.SchedulingReportToolStripMenuItem, Me.PaymentReportToolStripMenuItem})
         Me.ReportToolStripMenuItem.Name = "ReportToolStripMenuItem"
-        Me.ReportToolStripMenuItem.Size = New System.Drawing.Size(54, 20)
+        Me.ReportToolStripMenuItem.Size = New System.Drawing.Size(54, 19)
         Me.ReportToolStripMenuItem.Text = "Report"
         '
         'MovieDetailsReportToolStripMenuItem
@@ -127,27 +135,22 @@ Partial Class Home
         Me.PaymentReportToolStripMenuItem.Size = New System.Drawing.Size(183, 22)
         Me.PaymentReportToolStripMenuItem.Text = "Payment Report"
         '
-        'PaymentToolStripMenuItem
-        '
-        Me.PaymentToolStripMenuItem.Name = "PaymentToolStripMenuItem"
-        Me.PaymentToolStripMenuItem.Size = New System.Drawing.Size(66, 20)
-        Me.PaymentToolStripMenuItem.Text = "Payment"
-        Me.PaymentToolStripMenuItem.Visible = False
-        '
         'Home
         '
         Me.AllowDrop = True
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(824, 481)
+        Me.ClientSize = New System.Drawing.Size(1099, 666)
         Me.Controls.Add(Me.MenuStrip)
         Me.DoubleBuffered = True
+        Me.Font = New System.Drawing.Font("Montserrat", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Home"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Movie Ticket Booking"
